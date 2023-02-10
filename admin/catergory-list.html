@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="https://kit.fontawesome.com/6c91a38875.js" crossorigin="anonymous"></script>
+    <title>Giao diện admin</title>
+</head>
+<body>
+    <header>
+        <h1>PPSTYLE</h1>
+        <button>Đăng xuất</button>
+    </header>
+    <section class="admin-content">
+        <div class="admin-content-left">
+            <ul>
+                <li><a href="">Loại sản phẩm</a>
+                    <ul>
+                       <li><a href="catergory-add.html">Thêm loại sản phẩm</a></li>
+                        <li><a href="catergory-list.html">Danh sách loại sản phẩm</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Sản phẩm</a>
+                    <ul>
+                        <li><a href="product-add.html">Thêm sản phẩm</a></li>
+                        <li><a href="product-list.html">Danh sách sản phẩm</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Đơn hàng</a>
+                    <ul>
+                        <li><a href="order-list.html">Danh sách đơn hàng</a></li>
+                    </ul>
+                </li> 
+                <li><a href="">Khách hàng</a>
+                    <ul>
+                        <li><a href="user-list.html">Danh sách khách hàng</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="admin-content-right">
+            <div class="admin-content-right-catergory-list">
+                <div class="title">
+                    <li><h1>Danh sách loại sản phẩm</h1></li>
+                    <li> <input placeholder="Tìm kiếm" type="text"> <a href=""><i class="fas fa-search"></i></a></li>
+                </div>
+                <table>
+                    <tr>
+                        <td>ID</td>
+                        <td>Tên loại sản phẩm</td>
+                        <td></td>
+                        <td></td> 
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                       <td>Đồng hồ</td>
+                        <td><a href="">Sửa</a></td>
+                        <td><a href="">Xóa</a></td>  
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                       <td>Tranh cổ</td>
+                        <td><a href="">Sửa</a></td>
+                        <td><a href="" onsubmit="return confirm('Bạn có chắc muốn xóa?')">Xóa</a></td>  
+                    </tr>
+                </table>
+                <br>
+                <div class="page" style="margin-left: 1100px;">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

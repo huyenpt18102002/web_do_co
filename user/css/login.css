@@ -1,0 +1,80 @@
+body{
+    background:#ffffff;
+    background-size: cover;
+    background-position-y:-80px;
+    font-size: 16px;
+}
+#wrapper{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    flex-grow: 1;
+    padding: 90px 75px ;
+    box-shadow: 0px 0px 17px 2px #2979ff;
+    outline: invert;
+}
+.form-heading{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+.form-group{
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.form-group i{
+    font-size: 14px;
+    padding: 5px 10px 0 0;
+}
+.form-group i:first-child{
+    color: #2979ff;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid;
+    flex-grow: 1;
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid #060606;
+    background-color: #2979ff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 25px;
+    color: white;
+}
+.form-submit:hover{
+    border: 1px solid #54a0ff;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+.signup-already{
+    text-align: center;
+    font-size: 16px;
+
+}
+.signup-login-link{
+    color: #2979ff;
+    text-decoration: none;
+}
+
+/*--------------------------------SIGNUP------------------------------*/
+#hand{
+    color: rgb(255, 239, 9);
+}

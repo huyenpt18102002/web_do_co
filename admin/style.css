@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:black;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+}
+ul{
+    list-style: none;
+}
+header{
+    height: 100px;
+    width: 100vw;
+    border-bottom: 2px solid #dddd;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+}
+/*-----------------logout-----------------*/
+header button{
+    margin-top: 10px;
+    height: 35px;
+    width: 110px;
+    cursor: pointer;
+    background-color: rgb(46, 154, 237);
+    border: none;
+    transition: all 0.3s ease;
+    margin-bottom: 1px;
+    margin-left: 1400px;
+}
+header button a{
+    font-size: 16px;
+    color: white;
+}
+header button a:hover{
+    color: blue;
+}
+header button:hover {
+    background-color: transparent;
+    border: 1px solid blue;
+    
+}
+/*-----------------slider-----------------*/
+.admin-content{
+    padding-top: 50px;
+    display: flex;
+}
+.admin-content-left{
+    background-color: #dddd;
+    height: 775px;
+    width: 20%;
+    padding: 30px 0 0 12px;
+}
+.admin-content-left >ul >li >a{
+    font-weight: bold;
+}
+.admin-content-left ul li{
+    margin: 6px 0;
+}
+.admin-content-left ul ul{
+    margin-left: 20px;
+}
+.admin-content-right{
+    width:100%;
+    padding: 30px 0 0 12px;
+}
+/*-----------------catergoty-add-----------------*/
+.admin-content-right-catergory-add input{
+    height: 30px;
+    width: 200px;
+    padding-left: 12px;
+    margin-top: 20px;
+}
+.admin-content-right-catergory-add button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.admin-content-right-catergory-add button:hover{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}
+/*-----------------catergoty-list-----------------*/
+.admin-content-right-catergory-list .title{
+    display:inline-flex;
+}
+.admin-content-right-catergory-list .title li{
+    list-style-type: none;
+}
+.admin-content-right-catergory-list .title h1 {
+    width: 800px;
+}
+.admin-content-right-catergory-list .title input {
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid #333;
+}
+.admin-content-right-catergory-list table {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.admin-content-right-catergory-list table td, th, td {
+    border: 1px solid #dddd;
+    font-size: 18px;
+}
+.admin-content-right-catergory-list table td >a{
+    color:blue;
+}
+table{
+    border-collapse: collapse;
+}
+/*-----------------product-add-----------------*/
+.admin-content-right-product-add label p{
+    font-size: 18px;
+}
+.admin-content-right-product-add input, select{
+    height: 30px;
+    width: 200px;
+    display: block;
+}
+.admin-content-right-product-add button{
+    display: block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    background-color: brown;
+    border: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+.admin-content-right-product-add button:hover{
+    background-color: transparent;
+    border: 1px solid brown;
+    color: brown;
+}

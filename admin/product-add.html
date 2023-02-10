@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <title>Giao diện admin</title>
+</head>
+<body>
+    <header>
+        <h1>PPSTYLE</h1>
+    </header>
+    <section class="admin-content">
+        <div class="admin-content-left">
+            <ul>
+                <li><a href="">Loại sản phẩm</a>
+                    <ul>
+                       <li><a href="catergory-add.html">Thêm loại sản phẩm</a></li>
+                        <li><a href="catergory-list.html">Danh sách loại sản phẩm</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Sản phẩm</a>
+                    <ul>
+                        <li><a href="product-add.html">Thêm sản phẩm</a></li>
+                        <li><a href="product-list.html">Danh sách sản phẩm</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Đơn hàng</a>
+                    <ul>
+                        <li><a href="order-list.html">Danh sách đơn hàng</a></li>
+                    </ul>
+                </li> 
+                <li><a href="">Khách hàng</a>
+                    <ul>
+                        <li><a href="user-list.html">Danh sách khách hàng</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="admin-content-right">
+            <div class="admin-content-right-product-add">
+                <h1>Thêm sản phẩm</h1><br>
+                <form method="post" action="insert_solve.php">
+                    <label for=""><p>Chọn loại sản phẩm <span style="color:red">*</span></p></label><br>
+                    <select name="catergory_id">
+                        <option value>- Chọn -</option>
+                        <option value="">Đồng hồ
+                        </option> 
+                        <option value="">Tranh cổ</option>
+                    </select><br>   
+                    <label for=""><p>Nhập tên sản phẩm <span style="color:red">*</span></p></label><br>
+                    <input type="text" name="product_name"><br>
+                    <label for=""><p> Nhập giá<span style="color:red">*</span></p></label><br>
+                    <input type="text" name="material"><br>
+                    <label for=""><p>Mô tả sản phẩm <span style="color:red">*</span></p></label><br>
+                    <textarea style="width: 90%;" row="10" name="product_name"></textarea><br>
+                  
+                    <button>Thêm</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
